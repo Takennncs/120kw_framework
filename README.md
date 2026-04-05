@@ -83,3 +83,70 @@ The 120kw Framework is a lightweight, high-performance, and modular ecosystem de
 - Craftingule lisatud task action ja emote  
 - Crafting lauale ei pääse ligi ilma vanglakaristuseta (fixed)  
 - Voodite otsimise emote fixed  
+
+
+# 120kw – Changelog
+
+# Resources
+
+- Eemaldatud `120kw_policeduty` (BETA), kuna ei ole enam vajalik  
+
+---
+
+# 120kw_callsign
+
+- `/callsign` avab UI, kuhu saab sisestada kutsungi (salvestub automaatselt)  
+- Callsigni saavad kasutada ainult **politsei** ja **kiirabi**  
+
+---
+
+# 120kw_bodycam
+
+- Bodycami callsign fixed  
+- `/bodycaminfo` kaudu saab muuta UI-s bodycami asukohta jms  
+
+---
+
+# 120kw_policejob
+
+- Kutsung + nimi (Active Blip süsteem)  
+- EMS sama süsteemiga (Active Blip süsteem)  
+- Kahekordsed player blipid fixed (Active Blip süsteem)  
+- Politsei ja kiirabi näevad üksteise blippe (Active Blip süsteem)  
+- Kui mängija vallandatakse, eemaldatakse blip koheselt (Active Blip süsteem)  
+
+---
+
+# 120kw_mugshot + 120kw_policemdw
+
+- MDW-sse lisatud uus nupp **"Pilt"** (tagaotsitavuse nupu juurde)  
+- Avab mugshot UI tsooni → saab teha pildi kohapeal (ei pea jaoskonda minema)  
+- Jaoskonnas olemas ka eraldi asukoht  
+
+---
+
+# 120kw_society
+
+- ChangeRank reworked  
+- LoadProfileEditRank reworked  
+- PostMessage reworked  
+- Log system reworked  
+- Siseveeb fixed  
+- Seadete valik lisatud  
+- UI reworked  
+
+---
+
+# 120kw_process + 120kw_ambulancejob
+
+- Kiirabi väljakutse süsteem ümber tehtud  
+- Varem: `/help ID` käsklus  
+- Nüüd: kui karakter vajutab surnuna **G nuppu**, tekib `120kw_process` kaudu teadvuseta isiku väljakutse  
+- Võimalik koheselt saada infot ja reageerida  
+
+---
+
+# Radio
+
+- Kui raadio visatakse maha või eemaldatakse inventoryst → connection katkeb automaatselt  
+- Kui raadiot ei ole inventorys → `/radioinfo` käsklust kasutada ei saa  
