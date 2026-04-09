@@ -150,3 +150,29 @@ The 120kw Framework is a lightweight, high-performance, and modular ecosystem de
 
 - Kui raadio visatakse maha või eemaldatakse inventoryst → connection katkeb automaatselt  
 - Kui raadiot ei ole inventorys → `/radioinfo` käsklust kasutada ei saa  
+--- 
+# 120kw_driverlicense
+
+Täiendused ja parandused.
+
+## Muudatused
+
+### Helikopteri maandumise kontroll
+- Lisatud kontroll viimases checkpointis
+- Eksami lõpetamiseks peab:
+  - helikopter olema maas
+  - kiirus alla 5 km/h
+- Läbi checkpointi lendamine enam ei tööta
+- Kuvatakse teade:
+  > Maandu ettevaatlikult ja jää täielikult seisma!
+
+### 2h cooldown peale ebaõnnestumist
+- sv salvestab viimase läbikukkumise aja
+- Uus katse võimalik 2 tunni pärast
+
+### UI muudatused
+- Helikopteri license valimisel:
+  - Removed kiiruspiirangud
+- UI kuvab ainult eksami jaoks vajaliku info
+
+--- 
