@@ -176,3 +176,34 @@ Täiendused ja parandused.
 - UI kuvab ainult eksami jaoks vajaliku info
 
 --- 
+
+### 120kw_works muudatused
+
+- **Empty state (tiimi puudumisel):** Keskvaade on nüüd puhtam ja paremini tasakaalus. Lisatud on tagasihoidliku taustaga ümmargune ikoon, tekstide vahed on ühtlasemad ning nupp „Loo uus tiim“ on viimistletud – parem polsterdus, selgem font ja sujuv hover-efekt.  
+- **Ühtsem stiil:** Nupud ja kaardid kasutavad nüüd sama visuaalset joont. Domineerivad tumedamad toonid koos kollase aktsendiga, mis jätab rahulikuma ja kaasaegsema mulje.  
+
+---
+
+### 120kw_works – kuidas see asi töötab?
+
+Lühidalt: süsteem jaguneb kolmeks – UI (NUI) Client ja server S.
+
+#### 1. Tiimid
+
+- Kui sul tiimi pole, näed keskel nuppu "Loo uus tiim" sellele vajutades saab luua tiimi ja sinust saab automaatselt juht.  
+- Juhina saad teisi inviteida, nende statse vaadata ja vajadusel kickida.  
+- Edetabel uueneb jooksvalt ja näitab kes kõige rohkem tööd teinud on.  
+
+#### 2. Invite süsteem
+
+- Invite saad saata ainult lähedal olevatele mängijatele (umbes 5m raadiuses).  
+- Teisel mängijal tuleb ette valik – kas accept või decline.  
+- Kui ta nõustub uuendub UI kohe mõlemal poolel mingit reloadi vaja pole.  
+
+#### 3. Tööd ja statid
+
+- Töid tehes (nt elektrikappide parandamine) saad reputatsiooni ja work pointe.  
+- Need lähevad dbsse (nt `kw_characters`, `electric_stats`) ja sealt loetakse neid ka UIs ja leaderboardis.  
+- Kui juht lahkub või paneb tiimist quiti, saavad kõik sellest teada ja aktiivne state resetitakse.
+
+--- 
