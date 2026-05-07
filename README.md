@@ -207,3 +207,34 @@ Lühidalt: süsteem jaguneb kolmeks – UI (NUI) Client ja server S.
 - Kui juht lahkub või paneb tiimist quiti, saavad kõik sellest teada ja aktiivne state resetitakse.
 
 --- 
+
+### 120kw_inventory 
+
+Lühidalt parandatud UI drag + drop, maapinna slottide arv ja nupud.
+
+#### Inventory slotid
+
+- Muudetud pesad heledamaks (`rgba(60, 60, 70, 0.85)`) ja pandud silueti PNG eredamaks.  
+- Maapinna slottide arv suurendatud **21 peale** (lisatud drop down bar et kõik UI-le ära mahuks).  
+- Dropiconi hoover eemaldatud katkine punane kast.  
+
+#### 2. Parempoolne side card
+
+- Maas oleva eseme valimisel muutub card injectiks **"Korja" vaateks**  nupp tekstiga "Korja", peidetud "Kasuta/Anna/Bindi".  
+- Lisatud js info tekst **Nimi** **Kogus** **Kaal (tk/kokku)**.  
+- Nupud "Viska ära" ja "Anna" on nüüd samal real.  
+- Eemaldatud "Pane maas" nupp (dublicationis 2x "Viska ära" funktsiooni).  
+
+#### 3. Loogika parandused
+
+- **Eseme korjamine** Inventory page sulgub koheselt peale maast üleskorjamist.  
+- **Drag + Drop** Parandatud viga, kus eseme lohistamine teise sloti ei töödanud (eemaldatud pildi/teksti drag default function).  
+- **TAB Key** Parandatud relva vahetumise vältimine inventory avamisel (EHK weaponwheel sai ära peidetud).  
+- **Animatsioonid** Lisatud inventory avamisele ja esemete korjamisele animatsioonid.  
+
+#### 4. Ikoonid
+
+- Asendatud kõik FontAwesome Pro ikoonid tasuta versioonidega (`fa-archive`, `fa-box` jne).  
+- Maapinna tekstilt eemaldatud punane "MAAPIND" jättes alles ainult ikoon.  
+
+---
