@@ -208,7 +208,7 @@ Lühidalt: süsteem jaguneb kolmeks – UI (NUI) Client ja server S.
 
 --- 
 
-### 120kw_inventory 
+# 120kw_inventory 
 
 Lühidalt parandatud UI drag + drop, maapinna slottide arv ja nupud.
 
